@@ -36,3 +36,48 @@
     transform: rotate(360deg);
   }
 }
+
+body {
+  --color-primary: #56BC2F;
+  background-color: var(--color-primary);
+}
+
+.bg-primary { background-color: var(--color-primary); color: var(--color-primary-contrast)}
+.bg-primary:before { content:var(--color-primary); color: var(--primaryColorContrast);}
+.bg-primary-light { background-color: var(--color-primary-light); color: var(--color-primary-light-contrast)}
+.bg-primary-dark { background-color: var(--color-primary-dark); color: var(--color-primary-dark-contrast)}
+
+.bg-info { background-color: var(--color-info); color: var(--color-info-contrast) }
+.bg-info:before { content:var(--color-info); color: var(--infoColorContrast);}
+.bg-info-light { background-color: var(--color-info-light); color: var(--color-info-light-contrast)}
+.bg-info-dark { background-color: var(--color-info-dark); color: var(--color-info-dark-contrast)}
+
+.bg-warning { background-color: var(--color-warning); color: var(--color-warning-contrast) }
+.bg-warning:before { content:var(--color-warning); color: var(--warningColorContrast);}
+.bg-warning-light { background-color: var(--color-warning-light); color: var(--color-warning-light-contrast)}
+.bg-warning-dark { background-color: var(--color-warning-dark); color: var(--color-warning-dark-contrast)}
+
+
+.bg-danger { background-color: var(--color-danger); color: var(--color-danger-contrast)}
+.bg-danger:before { content:var(--color-danger); color: var(--dangerColorContrast);}
+.bg-danger-light { background-color: var(--color-danger-light); color: var(--color-danger-light-contrast)}
+.bg-danger-dark { background-color: var(--color-danger-dark); color: var(--color-danger-dark-contrast)}
+
+.button {
+  background-color: var(--color-primary);
+  border-radius: 3px;
+  color: var(--color-primary-contrast);
+  font-size: 14px;
+  padding: 6px 12px;
+  text-decoration: none;
+}
+.swatches { display: flex; flex-direction: row; gap: 5px; margin-bottom: 10px}
+.swatch {
+  border-radius: 3px;
+  height: 75px;
+  padding: 9px;
+  width: 75px;
+  flex-basis: 33.33%; /* Set each column to occupy 1/3 of the container width */
+  flex-grow: 1; /* Allow columns to grow to fill remaining space */
+  
+}
