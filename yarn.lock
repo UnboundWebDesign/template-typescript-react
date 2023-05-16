@@ -1478,6 +1478,11 @@
     "@jridgewell/resolve-uri" "3.1.0"
     "@jridgewell/sourcemap-codec" "1.4.14"
 
+"@khanacademy/tota11y@^0.2.0":
+  "integrity" "sha512-myvvtej7h/KQBPZAQ1XsJNrh7teEpN+qUwtVU6+t8U4Kf9/SnOlGpfxM2833Dlc0bORw+VJSwmHk/v5BNcPF1w=="
+  "resolved" "https://registry.npmjs.org/@khanacademy/tota11y/-/tota11y-0.2.0.tgz"
+  "version" "0.2.0"
+
 "@nodelib/fs.scandir@2.1.4":
   "integrity" "sha512-33g3pMJk3bg5nXbL/+CY6I2eJDzZAni49PfJnL5fghPTggPvBd/pFNSgJsdAgWptuFu7qq/ERvOYFlhvsLTCKA=="
   "resolved" "https://registry.npmjs.org/@nodelib/fs.scandir/-/fs.scandir-2.1.4.tgz"
