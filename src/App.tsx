@@ -23,15 +23,18 @@ function App(this: any) {
       <header className="App-header">
         <img src={logo} className="App-logo" alt="logo" />
         <p>
-          Accessible Color Palette Generator
+          React Accessible Color Palette
+          <div>
+            <label className="small">
+              <input type="checkbox" id="toggle" onClick={(e) => handleColorChange(e)}/> Toggle Dark
+            </label>
+          </div>
         </p>
+      </header>
+      <section className="App-body">
+        
+        <fieldset className="fieldset"><legend>Base Color Palette</legend></fieldset>
 
-        <p>
-          <label className="small">
-            <input type="checkbox" id="toggle" onClick={(e) => handleColorChange(e)}/> Toggle Dark
-          </label>
-        </p>
-       
         <div className="swatches">
           <span className='swatch bg-primary'>Primary</span>
           <span className='swatch bg-info'>Info</span>
@@ -82,7 +85,7 @@ function App(this: any) {
           <span className='swatch bg-accent-purple-dark'>Accent Purple Dark</span>
         </div>
        
-      </header>
+      </section>
     </div>
   );
 }
