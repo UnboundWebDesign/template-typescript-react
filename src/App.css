@@ -91,7 +91,8 @@ body {
 .bg-accent-purple-light { background-color: var(--color-accent-purple-light); color: var(--color-accent-purple-light-contrast)}
 .bg-accent-purple-dark { background-color: var(--color-accent-purple-dark); color: var(--color-accent-purple-dark-contrast)}
 
-
+.small { font-size: 0.85rem; line-height: 0.55}
+.small input { vertical-align: middle;}
 .button {
   background-color: var(--color-primary);
   border-radius: 3px;
@@ -113,12 +114,22 @@ body {
   max-height: 30px;
   width: 75px;
   text-align: center;
+  vertical-align: middle;
 }
-.fieldset {
+.App.dark .fieldset {
   border: none;
   border-top: 1px solid #aaa;
   font-size: 9px;
-  color: #ccc;
+  color: #bbb;
   width: 30vw;
   margin: 8px 0;
 }
+.App.light .fieldset {
+  border: none;
+  border-top: 1px solid #aaa;
+  font-size: 9px;
+  color: #666;
+  width: 30vw;
+  margin: 8px 0;
+}
+

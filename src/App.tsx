@@ -27,7 +27,7 @@ function App(this: any) {
         </p>
 
         <p>
-          <label>
+          <label className="small">
             <input type="checkbox" id="toggle" onClick={(e) => handleColorChange(e)}/> Toggle Dark
           </label>
         </p>
